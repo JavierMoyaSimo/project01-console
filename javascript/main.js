@@ -3,6 +3,9 @@ var screen = document.getElementById('final-screen');
 var light = document.getElementById('greenlight');
 var contador = 0;
 
+var select = document.getElementById('off');
+var contadortwo = 0;
+
 
 function change() {
     if( contador == 0) {
@@ -15,7 +18,15 @@ function change() {
     }
 }
 
+function tooff() {
+    if( contador == 1) {
+        screen.style.backgroundImage='url(./images/Captura.PNG)'
+        light.style.background='linear-gradient(to bottom, rgb(134, 130, 130), rgb(175, 165, 165))'; 
+        contador = 0;
+    }
+}
+
 
 button.addEventListener('click', change);
-
+select.addEventListener('click', tooff);
 
