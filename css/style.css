@@ -129,7 +129,7 @@ body {
 
 /*Imagen Título Gameboy*/
 #gmb-title {
-    width: 12vw;
+    width: 13vw;
     height: 3vh;
     background-color: black;
     background-image: url(../images/gameboy-adv-sp.png);
