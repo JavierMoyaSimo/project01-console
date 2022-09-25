@@ -118,6 +118,7 @@ body {
 #final-screen {
     border: 2px double rgb(53, 51, 51);
     background-image: linear-gradient(to top right, rgb(27, 26, 26), grey);
+    background-repeat: no-repeat;
     width: 18vw;
     height: 29vh;
     margin-left: 1vw;
@@ -331,6 +332,7 @@ body {
     width: 1vw;
     height: 1vh;
 }
+
 
 /*Control-botones*/
 #container-buttons-control {
