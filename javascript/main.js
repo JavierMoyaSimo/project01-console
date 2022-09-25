@@ -6,7 +6,8 @@ var contador = 0;
 var select = document.getElementById('off');
 var contadortwo = 0;
 
-
+// Función para encender la consola al pulsar Start
+//Introduzco un gift en la pantalla + Luz verde 
 function change() {
     if( contador == 0) {
         screen.style.backgroundImage='url(./images/gif.gif)';
@@ -18,6 +19,8 @@ function change() {
     }
 }
 
+//Función para apagar la consola al pulsar Select
+//La pantalla vuelve a su estado inicial + Luz vuelve a su estado inicial
 function tooff() {
     if( contador == 1) {
         screen.style.backgroundImage='url(./images/Captura.PNG)'
@@ -26,7 +29,9 @@ function tooff() {
     }
 }
 
-
+// Evento click para el boton Start con Id('on')
 button.addEventListener('click', change);
+
+//Evento click para el boton Select con id('off')
 select.addEventListener('click', tooff);
 
